@@ -1,4 +1,4 @@
-# Path-to-326
+# Pathto326
 Path to 326...give or take depending on Sinn Fein seats, the Speaker and Deputy Speaker
 
 A project by Dan W and Jacob W
