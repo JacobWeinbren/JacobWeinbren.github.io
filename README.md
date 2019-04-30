@@ -11,20 +11,20 @@ For the UK Geographically Accurate Map (depending on your opinion of the mercato
 https://geoportal.statistics.gov.uk/datasets/westminster-parliamentary-constituencies-december-2017-generalised-clipped-boundaries-in-the-uk?geometry=-10.015%2C54.057%2C-2.104%2C55.17
 
 ## Parties
-For the sake of inpartiality and openess, the choices of party will be 
+Not sure what order to do these without being biased. So for now it's being done by the number of seats at the moment, including defections. For the sake of inpartiality and openess, the choices of party will be 
 
 (England)
-- Labour 
 - Conservative
+- Labour 
 - Liberal Democrat
-- Green
 - Independent
+- Green
 - Other (you can choose a name and colour, maybe even a logo?)
 
 (Additional)
-- UKIP
-- Brexit
 - ChangeUK
+- Brexit
+- UKIP
 
 (Scotland)
 - addition of SNP
