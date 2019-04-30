@@ -5,6 +5,7 @@ A project by Dan Waterfield and Jacob W
 
 ## Parties
 For the sake of inpartiality and openess, the choices of party will be 
+
 (England)
 - Labour 
 - Conservative
@@ -12,8 +13,10 @@ For the sake of inpartiality and openess, the choices of party will be
 - Green
 - Independent
 - Other (you can choose a name and colour, maybe even a logo?)
+
 (Scotland)
 - + SNP
+
 (NI)
 - DUP 
 - Sinn Fein
