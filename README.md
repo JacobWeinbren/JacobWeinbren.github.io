@@ -14,8 +14,16 @@ For the sake of inpartiality and openess, the choices of party will be
 - Independent
 - Other (you can choose a name and colour, maybe even a logo?)
 
+(Additional)
+- UKIP
+- Brexit
+- ChangeUK
+
 (Scotland)
 - addition of SNP
+
+(Wales)
+- addition of Plaid Cymru
 
 (NI)
 - DUP 
