@@ -15,7 +15,7 @@ For the sake of inpartiality and openess, the choices of party will be
 - Other (you can choose a name and colour, maybe even a logo?)
 
 (Scotland)
-- + SNP
+- addition of SNP
 
 (NI)
 - DUP 
