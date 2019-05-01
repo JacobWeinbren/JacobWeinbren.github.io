@@ -1,7 +1,54 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link rel="stylesheet" href="css/leaflet.css" />
+		<link rel="stylesheet" href="css/spectre.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/leaflet.js"></script>
+		<script src="js/shape.js"></script>
+		<script src="js/jquery.csv.js"></script>
+	</head>
 	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
+		<div id="results">
+			<div class="box">
+				<div class="square" id="C">318</div>
+				<div class="square" id="Lab">262</div>
+				<div class="square" id="SNP">35</div>
+				<div class="square" id="LD">12</div>
+				<div class="square" id="DUP">10</div>
+				<div class="square" id="SF">7</div>
+				<div class="square" id="PC">4</div>
+				<div class="square" id="Green">1</div>
+				<div class="square" id="Ind">2</div>
+				<div class="square" id="Brex">0</div>
+				<div class="square" id="CHUK">0</div>
+			</div>
+		</div>
+		<div id="tools">
+			<div class="box" id="draw">
+				<div class="square" id="c-C"></div>
+				<div class="square" id="c-Lab"></div>
+				<div class="square" id="c-SNP"></div>
+				<div class="square" id="c-LD"></div>
+				<div class="square" id="c-DUP"></div>
+				<div class="square" id="c-SF"></div>
+				<div class="square" id="c-PC"></div>
+				<div class="square" id="c-Green"></div>
+				<div class="square" id="c-Ind"></div>
+				<div class="square" id="c-Brex"></div>
+				<div class="square" id="c-CHUK"></div>
+			</div>
+		</div>
+		<div id="mapid"></div>
+		<div class="controls">
+			<div id="mode">Mode: View</div>
+			<button class="btn" id="mouse" onclick="mode='view'; $('#mode').text('Mode: View')">View Mode</button><br>
+			<button class="btn" id="reset" onclick="gains();">Display Gains</button><br>
+			<button class="btn" id="reset" onclick="regular();">Regular Map</button><br>
+			<button class="btn" id="reset" onclick="document.location.reload()">Reset</button><br>
+			<p id="name"></p>
+		</div>
+		<script src="js/main.js"></script>
 	</body>
 </html>
