@@ -122,8 +122,13 @@ shp("westminster.zip").then(function(geojson) {
                     layer.setStyle({
                         fillColor: colours[party_id]
                     });
+                    seats[layer.party] -= 1
+                    for (seat in seats) {
+                        $('#' + seat).text(seats[seat])
+                    }
                     layer.party = party_id
                     feature.properties
+                    seats[party_id] += 1
                 }
             });
         },

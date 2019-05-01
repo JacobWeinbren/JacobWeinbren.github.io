@@ -28,12 +28,10 @@ Not sure what order to do these without being biased. So for now it's being done
 - Liberal Democrat
 - Independent
 - Green
-- Other (you can choose a name and colour, maybe even a logo?)
 
 (Additional)
 - ChangeUK
 - Brexit
-- UKIP
 
 (Scotland)
 - addition of SNP
@@ -44,9 +42,5 @@ Not sure what order to do these without being biased. So for now it's being done
 (NI)
 - DUP 
 - Sinn Fein
-- SDLP
-- UUP
-- Independent
-- Other
 
 If there is a party that you want to add for your made up election, you can make a fork.
