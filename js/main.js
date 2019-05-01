@@ -20,7 +20,9 @@ parties = {
     "LD": "Liberal Democrats",
     "PC": "Plaid Cymru",
     "SF": "Sinn Fein",
-    "SNP": "SNP"
+    "SNP": "SNP",
+    "Brex": "Brexit Party",
+    "CHUK": "Independent Party"
 }
 
 colours = {
@@ -46,7 +48,9 @@ seats = {
     "SF": 7,
     "PC": 4,
     "Green": 1,
-    "Ind": 2
+    "Ind": 2,
+    "Brex": 0,
+    "CHUK": 0
 }
 
 for (colour in colours) {
@@ -113,8 +117,8 @@ shp("westminster.zip").then(function(geojson) {
 
             layer.on('mouseover', function() {
                 constituency = feature.properties.pcon17nm
-                party_name = parties[getResult(constituency)]
-                $('#name').html("<font color='" + colours[getResult(constituency)] + "'>" + party_name + "</font><br>" + constituency)
+                party_name = parties[layer.party]
+                $('#name').html("<font color='" + colours[layer.party] + "'>" + party_name + "</font><br>" + constituency)
             });
 
             layer.on('click', function() {
@@ -123,12 +127,13 @@ shp("westminster.zip").then(function(geojson) {
                         fillColor: colours[party_id]
                     });
                     seats[layer.party] -= 1
-                    for (seat in seats) {
-                        $('#' + seat).text(seats[seat])
-                    }
+
                     layer.party = party_id
                     feature.properties
                     seats[party_id] += 1
+                    for (seat in seats) {
+                        $('#' + seat).text(seats[seat])
+                    }
                 }
             });
         },
